@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class first {
     public static void main(String[] args){
+
        /* int a=10086;
         String b="string";
         float f=120;
