@@ -1,6 +1,4 @@
 //2020.11.4
-
-
 package study;
 
 public class BubbleSort {
