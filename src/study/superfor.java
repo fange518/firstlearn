@@ -12,7 +12,7 @@ public class superfor {
                     System.out.println(each);
                 }
 
-                //增强型for循环遍历
+        //增强型for循环遍历
                 for (int each : values) {
                     System.out.println(each);
                 }
