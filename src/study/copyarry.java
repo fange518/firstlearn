@@ -14,6 +14,8 @@ public class copyarry {
             b[i] = a[i];
         }
 
+
+
         //方法二: System.arraycopy(src, srcPos, dest, destPos, length)
         //src: 源数组
         //srcPos: 从源数组复制数据的起始位置
