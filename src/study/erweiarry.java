@@ -6,7 +6,7 @@ public class erweiarry {
     */
         public static void main(String[] args) {
             //初始化二维数组，
-            int a[][]  = new int[2][3]; //有两个一维数组，每个一维数组的长度是3
+            int[][] a = new int[2][3]; //有两个一维数组，每个一维数组的长度是3
             a[1][2] = 5;
             a[0][2]=6;
             //可以直接访问一维数组，因为已经分配了空间
