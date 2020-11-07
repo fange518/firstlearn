@@ -31,12 +31,28 @@ public class Arrysways {
         在前面章节学习了 选择法排序 和 冒泡法排序，Arrays工具类提供了一个sort方法，只需要一行代码即可完成排序功能
          */
 
-                int a[] = new int[] { 18, 62, 68, 82, 65, 9 };
+               /* int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
                 System.out.println("排序之前 :");
                 System.out.println(Arrays.toString(a));
                 Arrays.sort(a);
                 System.out.println("排序之后:");
                 System.out.println(Arrays.toString(a));
-    }
+
+                */
+
+          //搜索
+          /*查询元素出现的位置
+            需要注意的是，使用binarySearch进行查找之前，必须使用sort进行排序
+            如果数组中有多个相同的元素，查找结果是不确定的
+           */
+
+                int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
+
+                Arrays.sort(a);
+
+                System.out.println(Arrays.toString(a));
+                //使用binarySearch之前，必须先使用sort进行排序
+                System.out.println("数字 62出现的位置:"+Arrays.binarySearch(a, 62));
+            }
         }
 
