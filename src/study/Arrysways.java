@@ -21,11 +21,22 @@ public class Arrysways {
           //转换为字符串
        /* 如果要打印一个数组的内容，就需要通过for循环来挨个遍历，逐一打印
           但是Arrays提供了一个toString()方法，直接把一个数组，转换为字符串，这样方便观察数组的内容*/
-                int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
+               /* int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
                 String content = Arrays.toString(a);
-                System.out.println(content);
+                System.out.println(content);*/
 
 
+           //排序
+        /*
+        在前面章节学习了 选择法排序 和 冒泡法排序，Arrays工具类提供了一个sort方法，只需要一行代码即可完成排序功能
+         */
+
+                int a[] = new int[] { 18, 62, 68, 82, 65, 9 };
+                System.out.println("排序之前 :");
+                System.out.println(Arrays.toString(a));
+                Arrays.sort(a);
+                System.out.println("排序之后:");
+                System.out.println(Arrays.toString(a));
     }
         }
 
