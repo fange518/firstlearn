@@ -46,13 +46,16 @@ public class Arrysways {
             如果数组中有多个相同的元素，查找结果是不确定的
            */
 
-                int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
+              /*int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
 
                 Arrays.sort(a);
 
                 System.out.println(Arrays.toString(a));
                 //使用binarySearch之前，必须先使用sort进行排序
                 System.out.println("数字 62出现的位置:"+Arrays.binarySearch(a, 62));
+
+               */
+
             }
         }
 
