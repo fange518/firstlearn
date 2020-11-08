@@ -62,10 +62,20 @@ public class Arrysways {
 
                 */
 
-                int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
+         /*     int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
                 int[] b = new int[] { 18, 62, 68, 82, 65, 8 };
 
                 System.out.println(Arrays.equals(a, b));
+
+          */
+         //填充
+        //使用同一个值，填充整个数组
+
+                int[] a = new int[10];
+
+                Arrays.fill(a, 5);
+
+                System.out.println(Arrays.toString(a));
             }
         }
 
