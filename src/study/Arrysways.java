@@ -56,6 +56,17 @@ public class Arrysways {
 
                */
 
+              //判断是否相同
+                /*比较两个数组的内容是否一样
+                第二个数组的最后一个元素是8，和第一个数组不一样，所以比较结果是false
+
+                */
+
+                int[] a = new int[] { 18, 62, 68, 82, 65, 9 };
+                int[] b = new int[] { 18, 62, 68, 82, 65, 8 };
+
+                System.out.println(Arrays.equals(a, b));
             }
         }
+
 
