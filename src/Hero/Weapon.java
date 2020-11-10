@@ -5,6 +5,7 @@ public class Weapon extends Item{
     //虽然Weapon自己没有设计name和price,但是通过继承Item类，也具备了name和price属性
     int damage; //攻击力
 
+
     public static void main(String[] args) {
         Weapon infinityEdge = new Weapon();
         infinityEdge.damage = 65; //damage属性在类Weapon中新设计的
